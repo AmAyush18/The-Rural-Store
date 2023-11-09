@@ -1,15 +1,15 @@
-import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { LoginPage, SignupPage } from './Routes.js';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <h1 className="text-lg text-rose-700">
-        Tailwind Applied
-      </h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/login' element={<LoginPage />} />
+        <Route path='/sign-up' element={<SignupPage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
