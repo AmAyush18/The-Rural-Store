@@ -1,0 +1,23 @@
+{
+  "name": "the_rural_store",
+  "version": "1.0.0",
+  "description": "Welcome to The Rural Store, an E-Commerce website that connects you with the unique and handmade products from local sellers across BHARAT. Our platform is dedicated to promoting and supporting local artisans, bringing their craftsmanship to a global audience.",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend/server.js",
+    "start": "node backend/server.js"
+  },
+  "author": "\"ayush dwivedi\"",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0",
+    "nodemailer": "^6.9.7",
+    "nodemon": "^3.0.1"
+  }
+}
